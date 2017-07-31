@@ -1,0 +1,19 @@
+.moviePanel{
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 278px;
+    background-color: aquamarine;
+    overflow: auto;
+    box-shadow: 11px 9px 5px 0px mediumaquamarine;
+}
+
+.moviePanel .moviePosterDiv{
+    float: left;
+    width: 16%;
+}
+
+.moviePanel .movieContent{
+    float: left;
+    padding-left: 13px;
+    width: 82%;
+}
