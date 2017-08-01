@@ -10,8 +10,6 @@ class Header extends Component {
         return (
             <div className="topnav" id="myTopnav">
                 <a href="/" className="title">MovieDB</a>
-                <a href="#settings" className="options">Settings</a>
-                <a href="#about" className="options">Contact</a>
                 <a href="#contact" className="options">About</a>
                 <a href="#news" className="options">Home</a>
             </div>
