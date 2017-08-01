@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
 import Content from './component/content-component/Content';
+import About from './component/about-component/About';
 import {Switch, Route} from 'react-router-dom';
 
 class App extends Component {
@@ -15,8 +16,6 @@ class App extends Component {
                     <Route path="/home" component={Content}/>
                     <Route path="/about" component={About}/>
                 </Switch>
-                <Content/>
-                <About/>
             </div>
         );
     }
